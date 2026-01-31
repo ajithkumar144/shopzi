@@ -1,0 +1,31 @@
+.shopzi-footer {
+  background-color: var(--secondary-color);
+  color: var(--text-light);
+  padding: 0.1rem 2rem;
+  margin-top: auto;
+  text-align: center;
+  
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.1rem;
+  align-items: center;
+}
+
+.footer-links {
+  display: flex;
+  gap: 2rem;
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
+
+.footer-links span {
+  cursor: pointer;
+}
+
+.footer-links span:hover {
+  text-decoration: underline;
+  opacity: 1;
+}

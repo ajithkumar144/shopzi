@@ -1,0 +1,32 @@
+.products-page {
+    padding: 1rem 0;
+}
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.search-input {
+    width: 100%;
+    max-width: 500px;
+    padding: 1rem 1.5rem;
+    font-size: 1.1rem;
+    border: 2px solid var(--secondary-color);
+    border-radius: 50px;
+    outline: none;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.search-input:focus {
+    border-color: var(--accent-color);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.products-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 2rem;
+}
